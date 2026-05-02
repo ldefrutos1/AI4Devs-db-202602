@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "dbhub": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@bytebase/dbhub@latest",
+        "--transport",
+        "stdio"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "DB_TYPE": "postgres",
+        "DB_HOST": "localhost",
+        "PGSSLMODE": "disable"
+      }
+    }
+  }
+}

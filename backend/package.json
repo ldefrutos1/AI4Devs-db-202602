@@ -10,7 +10,10 @@
         "prisma:init": "npx prisma init",
         "prisma:generate": "npx prisma generate",
         "start:prod": "npm run build && npm start",
-        "test": "jest" 
+        "test": "jest"
+    },
+    "prisma": {
+        "seed": "node prisma/seed.js"
     },
     "keywords": [],
     "author": "",
